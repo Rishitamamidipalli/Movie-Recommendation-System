@@ -16,7 +16,12 @@ Natural Language Processing (NLP): NLP techniques are applied to analyze movie d
 
 TF-IDF (Term Frequency-Inverse Document Frequency): TF-IDF is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents. It is utilized to represent each movie description as a numerical vector, capturing the significance of terms within the corpus.
 
+![Screenshot 2024-06-28 114259](https://github.com/Rishitamamidipalli/Movie-Recommendation-System/assets/123208162/0b74fc3d-5457-4085-864e-092bf5ee0478)
+
+
 Cosine Similarity: Cosine similarity is a metric used to measure the similarity between two vectors by computing the cosine of the angle between them. In this project, cosine similarity is applied to determine the similarity between movie descriptions and recommend similar movies based on user input.
+
+![Screenshot 2024-06-28 120418](https://github.com/Rishitamamidipalli/Movie-Recommendation-System/assets/123208162/5b1de81e-2e45-44d1-800d-fa1e6a058181)
 
 # Implementation:
 
@@ -27,3 +32,17 @@ TF-IDF Vectorization: The preprocessed text data is transformed into TF-IDF vect
 Cosine Similarity Calculation: Cosine similarity scores are computed between the TF-IDF vectors of movie descriptions to measure their similarity.
 
 Recommendation Generation: Based on user input (e.g., selected movie title or user preferences), the system identifies similar movies using cosine similarity scores and recommends them to the user.
+
+# About project 
+
+After downloading the dataset and running Pre_prosessing.py, you will obtain two key files: similarity_matrix.npy and modified_dataset.csv. The similarity_matrix.npy file contains the computed similarity matrix for the movies, which is used for generating recommendations. The modified_dataset.csv file includes the preprocessed dataset, which has been cleaned and prepared for analysis and recommendation purposes.
+
+Streamlit:Streamlit is an open-source Python library for creating interactive web apps for data science and machine learning projects
+Next Website.py is compiled using the command 'streamlit run Website.py' because this is website built using Streamlit 
+On the webpage, users can input their preferred movies and receive the top 5 movie recommendations based on that selection
+
+# DEMO
+
+![Screenshot 2024-06-27 001819](https://github.com/Rishitamamidipalli/Movie-Recommendation-System/assets/123208162/18c09ae8-772e-4646-b01e-3bf9fec204d1)
+
+![Screenshot 2024-06-27 125038](https://github.com/Rishitamamidipalli/Movie-Recommendation-System/assets/123208162/dc3cfa9b-87f8-4ed7-91b6-3b4411f6a9ef)
