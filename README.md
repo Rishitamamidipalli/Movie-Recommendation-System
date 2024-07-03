@@ -7,7 +7,7 @@ This project aims to build a movie recommendation system using natural language 
 
 # Dataset:
 
-You can download the dataset here[https://www.kaggle.com/datasets/ahsanaseer/top-rated-tmdb-movies-10k?fbclid=IwAR2MpWrWpcw2QNCv_FZg2l0sjBh9xAvhrqtnZBO9K-QS6PHI1aHkdB6qLa0]
+You can download the dataset [here](https://www.kaggle.com/datasets/ahsanaseer/top-rated-tmdb-movies-10k?fbclid=IwAR2MpWrWpcw2QNCv_FZg2l0sjBh9xAvhrqtnZBO9K-QS6PHI1aHkdB6qLa0)
 The IMDb dataset contains set of 10k top-rated TMDB movies till 26-July-2022., including titles, genres, descriptions, ratings, and more. The dataset is utilized to extract relevant features for building the recommendation system. 
 
 # Techniques Used:
