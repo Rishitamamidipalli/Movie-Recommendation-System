@@ -2,12 +2,18 @@
 Movie Recommendation System using IMDb Dataset with NLP and TF-IDF
 * * *
 # Table of Contents:
-[Overview](#Overview)
-[Dataset](#Dataset)
-[Techniques Used](#Techniques-Used)
-[Implementation](#Implementation)
-[About project](#About-project)
-[DEMO](#DEMO)
+-[Overview](#Overview)
+
+-[Dataset](#Dataset)
+
+-[Techniques Used](#Techniques-Used)
+
+-[Implementation](#Implementation)
+
+-[About project](#About-project)
+
+-[DEMO](#DEMO)
+* * *
 # Overview:
 
 This project aims to build a movie recommendation system using natural language processing (NLP) techniques and TF-IDF (Term Frequency-Inverse Document Frequency) on the IMDb dataset. By analyzing movie descriptions , the system suggests similar movies to users based on their input.
