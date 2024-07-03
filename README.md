@@ -1,7 +1,13 @@
 # Movie-Recommendation-System
 Movie Recommendation System using IMDb Dataset with NLP and TF-IDF
 * * *
-# T
+# Table of Contents:
+[Overview](#Overview)
+[Dataset](#Dataset)
+[Techniques Used](#Techniques-Used)
+[Implementation](#Implementation)
+[About project](#About-project)
+[DEMO](#DEMO)
 # Overview:
 
 This project aims to build a movie recommendation system using natural language processing (NLP) techniques and TF-IDF (Term Frequency-Inverse Document Frequency) on the IMDb dataset. By analyzing movie descriptions , the system suggests similar movies to users based on their input.
@@ -38,7 +44,7 @@ Cosine Similarity Calculation: Cosine similarity scores are computed between the
 Recommendation Generation: Based on user input (e.g., selected movie title or user preferences), the system identifies similar movies using cosine similarity scores and recommends them to the user.
 
 * * *
-# About project 
+# About project:
 
 After downloading the dataset and running Pre_prosessing.py, you will obtain two key files: similarity_matrix.npy and modified_dataset.csv. The similarity_matrix.npy file contains the computed similarity matrix for the movies, which is used for generating recommendations. The modified_dataset.csv file includes the preprocessed dataset, which has been cleaned and prepared for analysis and recommendation purposes.
 
@@ -47,7 +53,7 @@ Next Website.py is compiled using the command 'streamlit run Website.py' because
 On the webpage, users can input their preferred movies and receive the top 5 movie recommendations based on that selection
 
 * * *
-# DEMO
+# DEMO:
 
 https://github.com/Rishitamamidipalli/Movie-Recommendation-System/assets/123208162/b88e94e5-81dc-41e6-9fc6-7b84b0955682
 
