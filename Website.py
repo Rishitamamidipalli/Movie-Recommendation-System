@@ -37,8 +37,8 @@ def get_poster(movie_id, retries=5):
 def top5(given):
     l=[]
     m=[]
-    z=movies_data[movies_data['title']==given]['number'].values[0]
-    estimated=sorted(list(enumerate(similarity_matrix[z])),reverse=True,key=lambda x:x[1])
+    movie_index=movies_data[movies_data['title']==given].index[0]
+    estimated=sorted(list(enumerate(similarity_matrix[movie_index])),reverse=True,key=lambda x:x[1])
     for i in estimated[1:6]:
         k=movies_data[movies_data['number']==i[0]]
         n=k['id'].values[0]
