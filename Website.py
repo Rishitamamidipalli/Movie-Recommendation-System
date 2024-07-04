@@ -15,7 +15,7 @@ st.markdown("<h1 style='text-align: center;'>Movies Recommendation System</h1>",
 
 
 
-def get_poster(movie_id, retries=3):
+def get_poster(movie_id, retries=5):
     base_url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=fe8f2f85a68fa7ca17c0c58c19823b90&language=en-US'
     for attempt in range(retries):
         try:
